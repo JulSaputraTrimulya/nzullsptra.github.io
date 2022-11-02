@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BEST FRIEND</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<center>
+	<h3>5 Top Sahabat </h3>
+	<table border="1" style="width: 75%; height: 50%;">
+		<tr>
+			<th>No</th>
+			<th>Name</th>
+			<th>Address</th>
+			<th colspan="2">Action</th>
+		</tr>
+
+		<tr>
+			<td>1</td>
+			<td>Zul</td>
+			<td>Ciwiru</td>
+			<td>Edit</a></td>
+			<td>Hapus</a></td>
+		</tr>
+
+		<tr>
+			<td>2</td>
+			<td>Zaki</td>
+			<td>Ciwiru</td>
+			<td>Edit</a></td>
+			<td>Hapus</a></td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td>Haikal</td>
+			<td>Ciwiru</td>
+			<td>Edit</a></td>
+			<td>Hapus</a></td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>Ica</td>
+			<td>Kuningan</td>
+			<td>Edit</a></td>
+			<td>Hapus</a></td>
+		</tr>
+
+		<tr>
+			<td>5</td>
+			<td>Hilmy</td>
+			<td>Kuningan</td>
+			<td>>Edit</a></td>
+			<td>Kuningan</a></td>
+		</tr>
+	</center>		
+	</table>
+	<table class="tabels" border="1">
+	<tr>
+		<td>BACK</td>
+	</tr>
+	</table>
+    <script type="text/javascript">
+            
+        $(document).ready(() => {
+            $("td").click(function (event) {
+            alert("Rek Naon " +$(this).html() + "?");
+        });
+        
+        $("td").click(function (event) {
+        alert(" Tidak Semudah itu Ferguso !!! ");
+    });
+    $("th").click(function () {
+        confirm("Milih " + $(this).html()+ " Rek ganti ?");
+        if (confirm) {
+            let name;
+            let prompt_name = prompt("Sok Geuwat Ketik ");
+        }
+    });
+        $("th").click(function (event) {
+            alert("Tidak seemudah itu Ferguso !");
+        });
+    });
+        
+    </script>
+
+</body>
+</html>

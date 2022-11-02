@@ -1,0 +1,43 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	background: whitesmoke;}
+	
+;
+
+tr{
+	background-color: mediumaquamarine;
+}
+th{
+	background: black;
+	padding: 30px;
+	text-align: center;
+	background-color: mediumturquoise;
+}
+
+td{
+	text-align: center;
+	color: black;
+	padding-top: 10px;
+	background-color: mediumaquamarine;
+}
+
+.tabels{
+	height: 35px;
+	width: 25%;
+}
+th:hover{
+	color: white;
+	background: mediumturquoise;
+	cursor: pointer;
+	transition: 0.2s;
+	opacity: 75%;
+	
+}
+tr:hover{
+	color: white;
+	background: mediumturquoise;
+	cursor: pointer;
+	transition: 0.2s;
+	opacity: 75%;
+}
