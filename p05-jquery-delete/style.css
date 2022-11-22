@@ -1,0 +1,37 @@
+  body {
+    background-color: greenyellow;
+    padding: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  .Besti{
+    border: 10px black;
+    text-align: center;
+    padding: 17px;
+  }
+  
+  .Besti:hover {
+    background-color: whitesmoke;
+  }
+   
+  .sirah-tabel {
+    background-color: grey;
+  }
+  
+  .tabel {
+    border-collapse:  red;
+    width: 100%;
+  }
+  
+  .aksi-besti {
+    background-color: azure;
+  }
+  
+  .aksi-besti:hover {
+    background-color: aquamarine;
+  }
